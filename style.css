@@ -67,7 +67,7 @@ input.search-bar{
     width: calc(100%-80px);
 }
 input.search-bar:hover{
-    box-shadow: 5px 5px 5px #d8b4fe;
+    box-shadow: 5px 5px 5px #ebe9ee;
     cursor: pointer;
     transition: 0.2s ease-in-out;
 }
@@ -78,4 +78,13 @@ input.search-bar:hover{
 
 .weather{
     gap: 1.5rem;
+}
+
+.icon{
+    margin: 1rem;
+    width: 70px;
+}
+
+.description, .humudity, .wind{
+    font-size: larger;
 }
