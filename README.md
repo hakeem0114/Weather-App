@@ -1,6 +1,6 @@
 # Weather-App
 
-Uses Asynchronous Code with Fetch API to create a weather App.
+Uses Asynchronous Code with Fetch API to create a weather App for Cities.
 
 Image Credits: https://unsplash.com/developers  
 

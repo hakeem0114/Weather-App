@@ -71,6 +71,14 @@ input.search-bar:hover{
     cursor: pointer;
     transition: 0.2s ease-in-out;
 }
+
+input{
+    color:white;
+    font-size:larger;
+    font-weight: bold;
+}
+
+
 .temp{
     margin-top: .5rem;
     font-size: 50px;
@@ -87,4 +95,13 @@ input.search-bar:hover{
 
 .description, .humudity, .wind{
     font-size: larger;
+}
+
+.imgBox{
+    display: flex;
+    align-items: center;
+}
+
+.weather.loading{ /*CSS pseudo class*/
+    content: "Processing...."
 }
